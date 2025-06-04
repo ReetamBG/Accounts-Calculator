@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="My App",
+    page_icon="🌙",
+    layout="centered",
+)
+
 st.title("Interest Calculator")
 
 tab1, tab2 = st.tabs(["Simple Interest", "Compound Interest"])
